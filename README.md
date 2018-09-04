@@ -1,2 +1,2 @@
-# fetch-json-with-redux-redux-thunk
+# fetch-json
 application that fetches JSON using Redux and Redux Thunk
