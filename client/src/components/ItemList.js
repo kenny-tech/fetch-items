@@ -40,11 +40,15 @@ class ItemList extends Component {
     return (
       <ul>
           {this.state.items.map((item) => {
-            <li key={item.id}>
-                {item.label}
-            </li>
+            return (
+              <li key={item.id}>
+                  {item.label}
+              </li>
+            );    
           })}
       </ul>
-    )
+    );
   }
 }
+
+export default ItemList;
